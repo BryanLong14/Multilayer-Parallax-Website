@@ -131,12 +131,21 @@ so if you want to see where the boundaries of each layer are simply 'uncomment o
   opacity: .7;
 }
 
-@media all and (max-width: 1400px) {
+@media all and (max-width: 1401px) {
   .website-background {
-    top: -600px;
+    top: 0px;
     left: 0;
     right: 0;
     background: url(images/website-background-blank.png) center center;
     background-size: cover;
+  }
+  .space {
+    transform: translateZ(-3.5px) scale(4.6);
+    height: 230vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url(images/space.jpg);
+    background-position-y: -250px;
+    background-repeat: no-repeat;
   }
 }
