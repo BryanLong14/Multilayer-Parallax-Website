@@ -11,3 +11,5 @@ The key to understanding multilayer parallax using pure CSS involves understandi
 This allows you to make different layers, which when the user scrolls, move at different speeds.
 
 ## Learn about the syntax [Pure CSS Parallax by Keith Clark.](https://keithclark.co.uk/articles/pure-css-parallax-websites/)
+
+![Alt Text](https://giphy.com/embed/3o6nV414nIai2jRVOU)
