@@ -13,3 +13,6 @@ This allows you to make different layers, which when the user scrolls, move at d
 ## Learn about the syntax [Pure CSS Parallax by Keith Clark.](https://keithclark.co.uk/articles/pure-css-parallax-websites/)
 
 ![Alt Text](https://j.gifs.com/Oy8VpY.gif)
+![Alt Text](https://github.com/{user}/{repo}/raw/master/path/to/image.gif)
+
+https://j.gifs.com/Oy8VpY.gif
