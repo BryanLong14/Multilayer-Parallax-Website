@@ -1,0 +1,142 @@
+/*Standard Reset*/
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/*Parallax Styles to Transform Browser into a Simulated 3D Environment*/
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+/*Layers (think of these as workspaces orented along the Z-Axis)
+Listed From Front to Back. I have added background colors,
+so if you want to see where the boundaries of each layer are simply 'uncomment out' the background-color. */
+.foreground {
+  transform: translateZ(.5px) scale(.6);
+}
+
+.base {
+  transform: translateZ(0);
+  /*background-color: gray;*/
+}
+
+.deep {
+  transform: translateZ(-2px) scale(3);
+  /*background-color: orange;*/
+}
+
+.website-background {
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url(images/website-background-blank.png) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: black;*/
+}
+
+.space {
+  transform: translateZ(-3.5px) scale(4.6);
+  height: 190vh;
+  width: 100vw;
+  background-size: cover;
+  background-image: url(images/space.jpg);
+  background-position-y: -250px;
+  background-repeat: no-repeat;
+}
+
+/*Positioning of Individual Elements*/
+.saturn-position {
+  position: absolute;
+  top: -700px;
+  right: 5%;
+  opacity: .7 height: auto;
+  width: 30vw;
+}
+
+.moon-position {
+  position: absolute;
+  top: -30px;
+  left: -10%;
+  height: auto;
+  width: 35vw;
+}
+
+.sun-position {
+  position: absolute;
+  top: 65%;
+  right: -6%;
+  height: auto;
+  width: 50vw;
+}
+
+.ISS-position {
+  position: absolute;
+  top: 760px;
+  left: 16%;
+  height: auto;
+  width: 40vw;
+}
+
+.cloud1 {
+  position: absolute;
+  height: auto;
+  width: 35vw;
+  left: 59%;
+  opacity: .7;
+}
+
+.cloud2 {
+  position: absolute;
+  height: auto;
+  width: 45vw;
+  left: -10%;
+  top: 200px;
+  opacity: .7;
+}
+
+.cloud3 {
+  position: absolute;
+  height: auto;
+  width: 40vw;
+  left: 50%;
+  top: 420px;
+  opacity: .7;
+}
+
+.cloud4 {
+  position: absolute;
+  height: auto;
+  width: 45vw;
+  left: 10%;
+  top: 500px;
+  opacity: .7;
+}
+
+@media all and (max-width: 1400px) {
+  .website-background {
+    top: -600px;
+    left: 0;
+    right: 0;
+    background: url(images/website-background-blank.png) center center;
+    background-size: cover;
+  }
+}
