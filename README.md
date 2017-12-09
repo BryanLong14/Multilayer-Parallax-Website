@@ -1,8 +1,7 @@
 # Bryan's Multilayer Parallax Demonstration
 
 ## What is it?
-
-This code adds basic parallax to a site. Specifically, it slides a colored overlay on top of two static background images which change as the user scrolls.
+This code adds multilayer parallax to a site. Specifically, as the user scrolls down through the infinite cosmos, enjoying the view of the Milky Way, objects fly past at different speeds as if one was falling through space and crashing onto Earth, coming to rest peacefully in the mountains during an alpine sunset.
 
 ## See the live version at my [hosted website.](https://multilayer-parallax.firebaseapp.com/)
 ## Play around with the code at my [CodePen.](https://codepen.io/BryanLong/pen/ZagjLV)
