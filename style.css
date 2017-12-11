@@ -4,15 +4,15 @@ body, html {
   padding: 0;
 }
 
-/*Parallax Styles to Transform Browser into a Simulated 3D Environment*/
+/*Parallax Classes That Transform Browser Into a Simulated 3D Environment*/
 .parallax {
-  perspective: 1px;
   height: 100vh;
-  overflow-x: hidden;
+  perspective: 1px;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
-.parallax-layer {
+.layer {
   position: absolute;
   top: 0;
   right: 0;
@@ -26,11 +26,13 @@ body, html {
   transform-style: preserve-3d;
 }
 
-/*Layers (think of these as workspaces orented along the Z-Axis)
-Listed From Front to Back. I have added background colors,
-so if you want to see where the boundaries of each layer are simply 'uncomment out' the background-color. */
+/* Think of these layers as workspaces oriented along the Z-Axis.
+They are listed From front to back. I have added background colors
+so if you want to see where the boundaries of each are simply
+'uncomment out' the background-color. */
 .foreground {
   transform: translateZ(.5px) scale(.6);
+  /*background-color: white;*/
 }
 
 .base {
@@ -38,12 +40,12 @@ so if you want to see where the boundaries of each layer are simply 'uncomment o
   /*background-color: gray;*/
 }
 
-.deep {
+.back {
   transform: translateZ(-2px) scale(3);
   /*background-color: orange;*/
 }
 
-.website-background {
+.background {
   top: 0;
   left: 0;
   right: 0;
@@ -53,7 +55,7 @@ so if you want to see where the boundaries of each layer are simply 'uncomment o
   /*background-color: black;*/
 }
 
-.space {
+.deep-background {
   transform: translateZ(-3.5px) scale(4.6);
   height: 190vh;
   width: 100vw;
