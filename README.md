@@ -1,4 +1,4 @@
-# Bryan's Multilayer Parallax Demonstration
+# Multilayer Parallax Demonstration
 
 ## What is it?
 This code adds multilayer parallax to a site. Specifically, as the user scrolls down through the infinite cosmos, enjoying the view of the Milky Way, objects fly past at different speeds as if one was falling through space and crashing onto Earth, coming to rest peacefully in the mountains during an alpine sunset.
