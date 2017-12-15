@@ -11,5 +11,3 @@ This code adds multilayer parallax to a site. Specifically, as the user scrolls 
 ## The Code
 The key to understanding multilayer parallax using pure CSS involves understanding transforming the browser into a virtual 3D environment.
 This allows you to make different layers, which when the user scrolls, move at different speeds.
-
-## Learn about the syntax [Pure CSS Parallax by Keith Clark.](https://keithclark.co.uk/articles/pure-css-parallax-websites/)
