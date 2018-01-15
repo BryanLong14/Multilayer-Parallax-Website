@@ -7,7 +7,7 @@ This code adds multilayer parallax to a site. Specifically, as the user scrolls 
 
 ## Watch a [video tutorial](https://vimeo.com/251192931) of the developer explaining the technology
 
-## See the live version of the sire at my [hosted website.](https://multilayer-parallax.firebaseapp.com/)
+## See the live version of the site at my [hosted website.](https://multilayer-parallax.firebaseapp.com/)
 
 ## Play around with the code at my [CodePen.](https://codepen.io/BryanLong/pen/ZagjLV)
 
